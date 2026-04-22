@@ -36,8 +36,8 @@ RabbitMQ Helm Chart version 7.0.0 or later
 
 ```cli
 helm install rabbitmq --set auth.username=user --set auth.password=PASSWORD \
---set image.repository=bitnamilegacy/rabbitmq --set volumePermissions.image.repository=bitnamilegacy/os-shell \
---set global.security.allowInsecureImages=true bitnami/rabbitmq --wait
+--set image.repository=bitnamilegacy/rabbitmq --set global.security.allowInsecureImages=true \
+bitnami/rabbitmq --wait
 ```
 
 **Notes:**
