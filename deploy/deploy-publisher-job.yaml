@@ -12,7 +12,7 @@ spec:
           command:
             [
               "send",
-              "amqp://user:PASSWORD@rabbitmq.default.svc.cluster.local:5672",
+              "amqp://user:PASSWORD@rabbitmq.rabbitmq.svc.cluster.local:5672",
               "300",
             ]
       restartPolicy: Never
